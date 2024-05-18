@@ -6,7 +6,17 @@ export default {
     "./node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}", // Add Flowbite React content paths
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      'them-color': '#001642',
+      'text-gray': '#98A2B3',
+      },
+      margin: {
+        '33rem': '33rem',
+        '17rem': '17rem',
+        '14rem': '14rem'
+      },
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
