@@ -10,12 +10,21 @@ export default {
       colors: {
       'them-color': '#001642',
       'text-gray': '#98A2B3',
+      'contact-gray': '#E9E9E9',
+      'button-gray': '#F1F1F3',
       },
       margin: {
         '33rem': '33rem',
         '17rem': '17rem',
-        '14rem': '14rem'
+        '14rem': '14rem',
       },
+      fontSize: {
+        '2.2rem': '2.2rem',
+      },
+      width: {
+        '100%': '100%',
+        '0.5px': '0.5px',
+      }
     },
   },
   plugins: [require("flowbite/plugin")],

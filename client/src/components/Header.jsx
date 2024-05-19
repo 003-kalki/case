@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function Header() {
 
   return (
-    <Navbar className='border-b-2'>
+    <Navbar >
       <Link to="/" className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'>
         <span className=' rounded-lg text-black'>
           CASE
