@@ -24,7 +24,11 @@ export default {
       width: {
         '100%': '100%',
         '0.5px': '0.5px',
-      }
+        '395px': '395px',
+      },
+      height: {
+        '422px': '422px',
+      },
     },
   },
   plugins: [require("flowbite/plugin")],

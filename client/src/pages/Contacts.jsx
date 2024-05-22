@@ -27,7 +27,7 @@ export default function Contacts(){
                </div>
             </div>
 
-            <div className="e ml-auto mr-auto bg-black text-white rounded-md w-fit p-3 text-xs font-bold"><span>Send Your Message</span></div>
+            <div className="e ml-auto mr-auto bg-black text-white rounded-md w-fit p-3 text-xs font-bold hover:bg-gray-400"><span>Send Your Message</span></div>
             </div>
 
             <div className="2 p-12 flex flex-col justify-evenly gap-8">
