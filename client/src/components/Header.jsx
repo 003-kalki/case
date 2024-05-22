@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <div>
-      <Navbar className='border-b-2'>
+      <Navbar >
         <Link to="/" className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'>
           <span className='rounded-lg text-black'>
             CASE
@@ -15,9 +15,9 @@ export default function Header() {
 
         <Navbar.Collapse>
           <div className='flex flex-col sm:flex-row justify-between w-full'>
-            <div className='flex flex-col sm:flex-row sm:gap-4 sm:items-center px-2 py-4 sm:px-0'>
+            <div className='flex flex-col sm:flex-row sm:gap-4 sm:items-center px-2 py-4 sm:px-0 '>
               <Navbar.Link>
-                <Link className="text-black hover:text-white hover:bg-blue-900 border border-white rounded-lg px-2 py-1" to='/home'>Home</Link>
+                <Link className="text-black  hover:text-white hover:bg-blue-900 border border-white rounded-lg px-2 py-1 " to='/home'>Home</Link>
               </Navbar.Link>
               <Navbar.Link>
                 <Link className="text-black hover:text-white hover:bg-blue-900 border border-white rounded-lg px-2 py-1" to='/about'>About</Link>
