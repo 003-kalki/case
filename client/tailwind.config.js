@@ -14,6 +14,7 @@ export default {
       'button-gray': '#F1F1F3',
       },
       margin: {
+        '43rem': '43rem',
         '33rem': '33rem',
         '17rem': '17rem',
         '14rem': '14rem',
