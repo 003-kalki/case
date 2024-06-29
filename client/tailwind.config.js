@@ -21,11 +21,13 @@ export default {
       },
       fontSize: {
         '2.2rem': '2.2rem',
+        '1.5rem': '1.5rem',
       },
       width: {
         '100%': '100%',
         '0.5px': '0.5px',
         '395px': '395px',
+        '57rem': '57rem',
       },
       height: {
         '422px': '422px',
