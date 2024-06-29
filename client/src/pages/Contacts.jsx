@@ -4,17 +4,17 @@ export default function Contacts(){
     return(
         <div className="flex flex-col">
         <div className="text-[2.2rem] font-bold mt-7 mx-auto ">Contact Us</div>
-        <div className="bg-contact-gray m-12 rounded-md shadow-md flex flex-row w-fit mx-auto">
-             <div className="flex flex-col justify-evenly border-r-[0.5px] border-white">
+        <div className="bg-contact-gray m-12 rounded-md shadow-md flex flex-col sm:flex-row w-fit mx-auto">
+             <div className="flex flex-col justify-evenly border-b-[0.5px] sm:border-b-0 sm:border-r-[0.5px] border-white pb-3 sm:pb-0">
 
             <div className="1 p-12  flex flex-col justify-evenly gap-5 ">
-               <div className="a flex flex-row gap-5">
-                <div><p>First name</p><input className="border-0 rounded-md mt-3" type="text" placeholder="Enter First Name" /></div>
-                <div><p>Last name</p><input className="border-0 rounded-md mt-3" type="text" placeholder="Enter Last Name" /></div>
+               <div className="a flex flex-col sm:flex-row gap-5">
+                <div><p>First name</p><input className="border-0 rounded-md mt-3 w-[100%]" type="text" placeholder="Enter First Name" /></div>
+                <div><p>Last name</p><input className="border-0 rounded-md mt-3 w-[100%]" type="text" placeholder="Enter Last Name" /></div>
                </div>
-               <div className="b flex flex-row gap-5">
-               <div><p>Email</p><input className="border-0 rounded-md mt-3" type="email" placeholder="Enter your Email" /></div>
-                <div><p>Phone</p><input className="border-0 rounded-md mt-3" type="text" placeholder="Enter Phone Number" /></div>
+               <div className="b flex flex-col sm:flex-row gap-5">
+               <div><p>Email</p><input className="border-0 rounded-md mt-3 w-[100%]" type="email" placeholder="Enter your Email" /></div>
+                <div><p>Phone</p><input className="border-0 rounded-md mt-3 w-[100%]" type="text" placeholder="Enter Phone Number" /></div>
                </div>
                <div className="c">
                <p>Subject</p><input className="border-0 rounded-md mt-3 w-[100%]" type="text" placeholder="Enter your Subject" />
@@ -27,7 +27,7 @@ export default function Contacts(){
                </div>
             </div>
 
-            <div className="e ml-auto mr-auto bg-black text-white rounded-md w-fit p-3 text-xs font-bold hover:bg-gray-400"><span>Send Your Message</span></div>
+            <div className="e mx-auto bg-black text-white rounded-md w-fit p-3 text-xs font-bold hover:bg-gray-400"><span>Send Your Message</span></div>
             </div>
 
             <div className="2 p-12 flex flex-col justify-evenly gap-8">
